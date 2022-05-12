@@ -30,4 +30,4 @@ Project is created with:
 
 
 ## Setup
-This project uses Qiskit and scipy. The best way of installing qiskit is by using pip: `$ pip install qiskit` and `$ pip install scipy`
+This project uses sklearn, keras and tensorflow. The best way of installing sklearn, keras and tensorlow is by using pip: `$ pip install sklearn` ,  `$ pip install keras` and `$ pip install tensorflow` respectively. 
