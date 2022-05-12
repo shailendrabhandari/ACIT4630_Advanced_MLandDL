@@ -8,6 +8,13 @@ This code and the project is created for a mandatory project ACIT4630 Advanced m
 ## Problem Definition
 Automatic fall detection (FD) devices have been developed as assertive technology throughout the last two decades. The primary purpose of fall detection systems is to detect critical falls and warn medical professionals or carers as soon as possible. Furthermore, these solutions can help the elderly and carers cope with psychological stress. Basically the problem to be solved is to distinguish fall from activities of daily life by using a wireless sensor fitted to the persons body. There are various types of fall action on the dataset and the task is to identify some of the non fall actions which are high impact events with falls. For this, we used machine learning classifiers to train the dataset and predit the fall activities by using Decision Tree, K-Nearest Neighbors, Random Forest, Support Vector Machine and a deep neural network (LSTM, CNN+LSTM). 
 
+
+In the aged, falls are majorly responsible for severe injuries and death. According to the World Health Organization \cite{world2008global}, over 30\% of the elderly, aged 64 and more, fall at least once a year. A previous study showed that nearly half of the elderly population died after laying on the floor for more than an hour within six months of a fall. Also, around 420,000 falls result in death each year. As a result of this statistic, falls are the second most significant cause of unintentional injury mortality.
+
+Falls, particularly among the elderly, are a significant health concern worldwide. Fall detection systems that are reliable can help reduce the detrimental effects of falls. Making a fair comparison between fall detection systems and machine learning algorithms for detection is one of the significant challenges and issues identified in the research.
+
+After falling, elderly persons and people with epilepsy may require assistance, but they may be unable to summon help owing to injuries or loss of consciousness. Several wearable fall detection systems have been created, but not everyone at risk uses them.
+
 ## Data set
 The data set consists of 57.96\% falls and 42.04\% of activities of daily life. In addition, there are altogether 1570 number of records, 910 falls and 660 daily life activities. 
 
@@ -19,7 +26,7 @@ Ten males and seven females participated in a study. A wireless sensor unit was 
 
 ## User guide
 
-I will again suggest taking a look at the notebook [Example project](https://github.com/Shailendra995/Final_Project_MachineLearning/blob/master/fall_detection_wearable_sensor.ipynb). To run code you have to save the directory "falldetection" on running directory. 
+I will suggest taking a look at the notebook [Example project](https://github.com/Shailendra995/Final_Project_MachineLearning/blob/master/fall_detection_wearable_sensor.ipynb). To run code you have to save the directory "falldetection" on running directory. 
 
 ## Technologies
 Project is created with:
