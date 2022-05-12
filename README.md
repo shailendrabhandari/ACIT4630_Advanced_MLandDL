@@ -9,7 +9,7 @@ This code and the project is created for a mandatory project ACIT4630 Advanced m
 Automatic fall detection (FD) devices have been developed as assertive technology throughout the last two decades. The primary purpose of fall detection systems is to detect critical falls and warn medical professionals or carers as soon as possible. Furthermore, these solutions can help the elderly and carers cope with psychological stress. Basically the problem to be solved is to distinguish fall from activities of daily life by using a wireless sensor fitted to the persons body. There are various types of fall action on the dataset and the task is to identify some of the non fall actions which are high impact events with falls. For this, we used machine learning classifiers to train the dataset and predit the fall activities by using Decision Tree, K-Nearest Neighbors, Random Forest, Support Vector Machine and a deep neural network (LSTM, CNN+LSTM). 
 
 
-In the aged, falls are majorly responsible for severe injuries and death. According to the World Health Organization \cite{world2008global}, over 30\% of the elderly, aged 64 and more, fall at least once a year. A previous study showed that nearly half of the elderly population died after laying on the floor for more than an hour within six months of a fall. Also, around 420,000 falls result in death each year. As a result of this statistic, falls are the second most significant cause of unintentional injury mortality.
+In the aged, falls are majorly responsible for severe injuries and death. According to the World Health Organization [1], over 30\% of the elderly, aged 64 and more, fall at least once a year. A previous study showed that nearly half of the elderly population died after laying on the floor for more than an hour within six months of a fall. Also, around 420,000 falls result in death each year. As a result of this statistic, falls are the second most significant cause of unintentional injury mortality.
 
 Falls, particularly among the elderly, are a significant health concern worldwide. Fall detection systems that are reliable can help reduce the detrimental effects of falls. Making a fair comparison between fall detection systems and machine learning algorithms for detection is one of the significant challenges and issues identified in the research.
 
@@ -38,3 +38,8 @@ Project is created with:
 
 ## Setup
 This project uses sklearn, keras and tensorflow. The best way of installing sklearn, keras and tensorlow is by using pip: `$ pip install sklearn` ,  `$ pip install keras` and `$ pip install tensorflow` respectively. 
+
+
+## References
+.[1] World Health Organization: Global report on falls prevention in older age. http://www.who.int/ageing/publications/Falls_prevention7March.pdf 
+
