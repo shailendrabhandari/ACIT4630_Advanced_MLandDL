@@ -14,3 +14,20 @@ The data set consists of 57.96\% falls and 42.04\% of activities of daily life. 
 ## Data exploration [This section is copied from data source provider]
 
 Ten males and seven females participated in a study. A wireless sensor unit was fitted to the subject's waist and right thigh among other body parts as can be seen in Figure 1. The sensor unit comprises three tri-axial devices: accelerometer, gyroscope, and magnetometer/compass. Raw motion data was recorded along three perpendicular axes (x, y, z) from the unit with a sampling frequency of 25 Hz yielding Acc_X, Acc_Y, Acc_Z ($m/s^2$), Gyr_X, Gyr_Y, Gyr_Z (°/s) and Mag_X, Mag_Y, Mag_Z (Gauss). A set of trials consists of 20 fall actions (see list 'Fall Actions' above) and 16 activities of daily living (see list 'Non-Fall Actions' above). Each trial lasted about 15s on average. The 17 volunteers repeated each test five times. Then the peak of the total acceleration vector $\sqrt{\text{Acc_X}^2 + \text{Acc_Y}^2 + \text{Acc_Z}^2}$ was detected, and two seconds of the sequence before and after the peak acceleration were kept.
+
+
+
+## User guide
+
+I will again suggest taking a look at the notebook [Example project](https://github.com/Shailendra995/Final_Project_MachineLearning/blob/master/fall_detection_wearable_sensor.ipynb). To run code you have to save the directory "falldetection" on running directory. 
+
+## Technologies
+Project is created with:
+* Python version: 3.8 
+* sklearn
+* keras
+* Tensorflow
+
+
+## Setup
+This project uses Qiskit and scipy. The best way of installing qiskit is by using pip: `$ pip install qiskit` and `$ pip install scipy`
